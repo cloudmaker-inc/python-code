@@ -1,5 +1,5 @@
 from azure.devops.connection import Connection
-from azure.devops.v6_0.git import GitClient, GitPullRequestSearchCriteria, GitPullRequest, GitPullRequestStatus, GitQueryCommitsCriteria
+from azure.devops.v6_0.git import GitClient, GitPullRequestSearchCriteria, GitPullRequest
 from msrest.authentication import BasicAuthentication
 
 # Submits all the pull_requests within a repository for the downstream update method calls.
